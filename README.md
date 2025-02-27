@@ -3,10 +3,12 @@
 EarthQuiz was created as my second milestone project for the Code Institutes Level 5 Diploma in Web Application Development. 
 
 Link to deployed site: 
--
+?
 
 ![Welcome to EarthQuiz](/documentation/mockup.png) 
 
+
+- - -
 
 ## CONTENTS
 
@@ -38,7 +40,6 @@ Link to deployed site:
   * [Fixed Bugs](#fixed-bugs)
   * [Unfixed Bugs](#unfixed-bugs)
 
-
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)
@@ -54,6 +55,7 @@ Link to deployed site:
 ## User Experience
 
 
+- - -
 
 ## Design
 
@@ -91,14 +93,14 @@ Favicon generated using [favicon.io](https://favicon.io/)
 
 Wireframes were created for mobile and desktop using Balsamiq.
 
--
+?
 
 
 ## Features
 
 The website is comprised of ? pages:
 
--
+?
 
 
 ### Site Wide
@@ -117,7 +119,7 @@ __Footer__
 
 ### Home Page
 
-* -
+* ?
 
 ![Home Page](/documentation/home-page.png)
 
@@ -132,7 +134,7 @@ __Footer__
 
 In future implementations I would like to:
 
--
+?
 
 
 - - -
@@ -170,7 +172,6 @@ JavaScript
 
 [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
 
-- - - 
 
 - - -
 

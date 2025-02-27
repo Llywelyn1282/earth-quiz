@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barrio&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --color-1: #f9b9c3;
+  --color-2: #d87cac;
+  --color-3: #5b85aa;
+  --color-4: #004f2d;
+  --color-5: #ffffff;
+  --color-6: #000000;
+  --hover: #564592;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  background-color: var(--color-1);
+  color: var(--color-6);
+  margin: 0;
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 20px;
+  font-family: "Barrio", sans-serif;
+  display: flex;
+  flex-direction: column
+}
+
+nav ul a {
+  text-decoration: none;
+  color: var(--color-6);
+}
+
+.logo {
+  text-align: left;
+  width: fit-content;
+}
+
+.nav-item {
+  text-align: right;
+  width: fit-content;
+  padding: 5px;
+}
+
+.nav-item:hover {
+  background-color: var(--hover);
+  color: var(--color-5);
+}
