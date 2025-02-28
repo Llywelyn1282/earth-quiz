@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;display:
+  align-items: center;
 }
 
 /* Nav Section */
@@ -51,6 +51,7 @@ body {
   text-align: center;
   font-size: 20px;
   padding: 10px 10px;
+  font-family: "inter", sans-serif;
 }
 
 .nav-container a.logo {
