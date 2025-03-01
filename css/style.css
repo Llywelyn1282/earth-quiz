@@ -73,7 +73,7 @@ main {
 /* Intro Section */
 
 #intro {
-  display: block;
+  display: none;
 }
 
 .intro-container {
@@ -126,7 +126,7 @@ button:focus {
 /* Quiz Section */
 
 #quiz {
-  display: none;
+  display: block;
 }
 
 .quiz-container {

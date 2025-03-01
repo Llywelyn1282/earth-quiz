@@ -81,9 +81,21 @@ const quizData = [
   },
 ];
 
+//fisher-yates-shuffle code
+
+const shuffle = (array) => { 
+for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i+1));
+    [array [i], array [j]] = [array [j], array [i]];
+}
+return array;
+};
+
+const shuffledQuizData = shuffle(quizData);
+
 const quiz = document.getElementById("quiz");
 const answerEls = document.querySelectorAll(".answer");
-const questionEls = document.getElementById("question");
+const questionEl = document.getElementById("question");
 const a_text = document.getElementById("a_text");
 const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
