@@ -31,15 +31,6 @@ Link to deployed site:
   * [Libraries & Packages Used](#libraries--packages-used)
   * [Programs Used](#programs-used)
 
-* [Testing](#testing)
-  * [Responsiveness](#responsiveness)
-  * [Accesibility](#accessibility)
-  * [Lighthouse Testing](#lighthouse-testing)
-  * [Functional Testing](#functional-testing)
-  * [Validator Testing](#validator-testing)
-  * [Fixed Bugs](#fixed-bugs)
-  * [Unfixed Bugs](#unfixed-bugs)
-
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)
