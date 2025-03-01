@@ -165,3 +165,16 @@ ul li label {
 cursor: pointer;
 }
 
+/* Images */
+
+.img-container {
+  position: relative;
+  padding-top: 3%;
+}
+
+.img-container img {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  margin: auto;
+}
