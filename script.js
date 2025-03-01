@@ -81,14 +81,14 @@ const quizData = [
   },
 ];
 
-//fisher-yates-shuffle code
+//fisher-yates shuffle code
 
-const shuffle = (array) => { 
-for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i+1));
-    [array [i], array [j]] = [array [j], array [i]];
-}
-return array;
+const shuffle = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 };
 
 const shuffledQuizData = shuffle(quizData);
@@ -156,10 +156,22 @@ submitBtn.addEventListener("click", () => {
     if (currentQuiz < quizData.length) {
       loadQuiz();
     } else {
-      quiz.innerHTML = `
+      if (score < 4) {
+        quiz.innerHTML = `
+            <h2> Oof. You answered only ${score} out of ${quiz.quizData.length} questions correctly. Better luck next time!</h2>
+            <button onclick="location.reload ()"> Try Again? </button>
+            `;
+      } else if (score < 7) {
+        quiz.innerHTML = `
+            <h2> Not bad. You answered ${score} out of ${quizData.length} questions correctly. Keep practising!</h2>
+            <button onclick="location.reload ()"> Try Again? </button>
+            `;
+      } else {
+        quiz.innerHTML = `
            <h2> Well done! You answered ${score} out of ${quizData.length} questions correctly. </h2>
            <button onclick="location.reload ()"> Try Again? </button>
            `;
+      }
     }
   }
 });
