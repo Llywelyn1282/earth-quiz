@@ -72,7 +72,7 @@ const quizData = [
       correct: "d",
     },
     {
-      question: "What is the largest living animal on Earth",
+      question: "What is the largest living animal on Earth?",
       a: "Humpback Whale",
       b: "Blue Whale",
       c: "Grey Whale",

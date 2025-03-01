@@ -205,13 +205,9 @@ The project will now of been cloned on your local machine for use.
 
 ## Credits
 
-W3schools page used to learn how to place text over images:
+Stackoverflow questions page used to learn how to pin header and footer to the top and bottom of the page respectively:
 
-https://www.w3schools.com/howto/howto_css_image_text.asp
-
-Flexbox tutorial used for alignment in footer:
-
-https://www.youtube.com/watch?v=2uvyx4YK_rQ&t=2s
+https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
 
 W3schools page used to learn how to link phone number in contact information:
 
@@ -233,4 +229,4 @@ Content for this project was written by Gwilym Llywelyn.
 
 ### Media
 
--
+- 
