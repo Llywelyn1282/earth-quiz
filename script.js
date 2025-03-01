@@ -173,6 +173,7 @@ submitBtn.addEventListener("click", () => {
             <button onclick="location.reload ()"> Try Again? </button>
             `;
       } else {
+        confetti();
         quiz.innerHTML = `
         <div class="img-container">
         <img src="assets/good.webp">
