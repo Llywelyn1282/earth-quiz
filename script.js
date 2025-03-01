@@ -146,6 +146,7 @@ function getSelected() {
 
 submitBtn.addEventListener("click", () => {
   const answer = getSelected();
+  
   if (answer) {
     if (answer === quizData[currentQuiz].correct) {
       score++;
@@ -161,26 +162,26 @@ submitBtn.addEventListener("click", () => {
         <div class="img-container">
         <img src="assets/bad.webp">
         </div>
-            <h2> Oof. You answered only ${score} out of ${quizData.length} questions correctly. Better luck next time!</h2>
-            <button onclick="location.reload ()"> Try Again? </button>
-            `;
+        <h2> Oof. You answered ${score} out of ${quizData.length} questions correctly. Better luck next time.</h2>
+
+        <button onclick="location.reload ()">Try Again?</button>`;
       } else if (score < 7) {
         quiz.innerHTML = `
         <div class="img-container">
         <img src="assets/ok.webp">
         </div>
-            <h2> Not bad. You answered ${score} out of ${quizData.length} questions correctly. Keep practising!</h2>
-            <button onclick="location.reload ()"> Try Again? </button>
-            `;
+        <h2> Not bad. You answered ${score} out of ${quizData.length} questions correctly. Keep practising.</h2>
+
+        <button onclick="location.reload ()">Try Again?</button>`;
       } else {
         confetti();
         quiz.innerHTML = `
         <div class="img-container">
         <img src="assets/good.webp">
         </div>
-           <h2> Well done! You answered ${score} out of ${quizData.length} questions correctly. </h2>
-           <button onclick="location.reload ()"> Try Again? </button>
-           `;
+        <h2> Well done! You answered ${score} out of ${quizData.length} questions correctly.</h2>
+
+        <button onclick="location.reload ()">Try Again?</button>`;
       }
     }
   }
