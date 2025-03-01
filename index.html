@@ -10,6 +10,26 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Favicon Link -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+
     <!-- CSS Link -->
     <link rel="stylesheet" href="css/style.css" />
 
@@ -17,14 +37,18 @@
   </head>
 
   <body>
-    <!-- Nav Section -->
-    <div class="nav-container">
-      <a class="logo" href="index.html">EarthQuiz</a>
-      <div class="nav-pages">
-        <a class="nav-link active" href="index.html">Home</a>
-        <a class="nav-link" href="contact.html">Contact</a>
+    <header>
+
+      <!-- Nav Section -->
+      <div class="nav-container">
+        <a class="logo" href="index.html">EarthQuiz</a>
+        <div class="nav-pages">
+          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </div>
       </div>
-    </div>
+
+    </header>
 
     <main>
       <!-- Intro Section -->
@@ -37,25 +61,43 @@
       <!-- Quiz Section -->
 
       <div class="quiz-container" id="quiz">
-        <div class="quiz-header">
-          <h2 id="question"> Question text</h2>
-          <ul>
-            <li> <button name="answer" id="a_text" class="answer"> Question </button>
-            </li>
-  
-            <li> <button name="answer" id="b_text" class="answer"> Question </button>
-            </li>
-  
-            <li> <button name="answer" id="c_text" class="answer"> Question </button>
-            </li>
-  
-            <li> <button name="answer" id="d_text" class="answer"> Question </button>
-            </li>
-          </ul>
-        </div>
+        <h2 id="question">Question text</h2>
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="a" class="answer" />
+            <label for="a" id="a_text">Question</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="b" class="answer" />
+            <label for="b" id="b_text">Question</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="c" class="answer" />
+            <label for="c" id="c_text">Question</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="d" class="answer" />
+            <label for="d" id="d_text">Question</label>
+          </li>
+        </ul>
         <button id="submit">Answer</button>
       </div>
     </main>
+
+    <footer>
+
+      <div class="footer">
+        <div class="socials">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+        </div>
+      </div>
+      
+    </footer>
 
     <!-- Javascript Links -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
