@@ -56,23 +56,51 @@ The target audience of the project are individuals of all ages who have an inter
 ### User Story 1
 “As a user of the site I want to be able to easily identify its purpose.”
 
+#### Acceptance Criteria
+
+#### Tasks
+
 ### User Story 2
 “As a user of the site I want to be able to easily navigate the site and across different pages.”
+
+#### Acceptance Criteria
+
+#### Tasks
 
 ### User Story 3
 “As a user of the site I want to be able to test and improve my geography knowledge.”
 
+#### Acceptance Criteria
+
+#### Tasks
+
 ### User Story 4
 “As a user of the site I want to be able to see my score upon the completion of the quiz to be able to track my performance.”
+
+#### Acceptance Criteria
+
+#### Tasks
 
 ### User Story 5
 “As a user of the site I want to be able to be able to easily locate the social media channels of the site to keep track of updates and other potential quizzes in the making.”
 
+#### Acceptance Criteria
+
+#### Tasks
+
 ### User Story 6
 “As a user of the site I want to be able to contact the makers of the site with any questions or compliments I might have.”
 
+#### Acceptance Criteria
+
+#### Tasks
+
 ### User Story 7
 “As an administrator for the site I want to be able to update the site and features quickly and easily.”
+
+#### Acceptance Criteria
+
+#### Tasks
 
 
 - - -

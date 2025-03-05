@@ -49,6 +49,10 @@ footer {
   text-align: center;
 }
 
+a {
+  color: inherit;
+}
+
 /*Keeps Header and Footer in Place */
 
 body {
