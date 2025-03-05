@@ -2,8 +2,7 @@
 
 EarthQuiz was created as my second milestone project for the Code Institutes Level 5 Diploma in Web Application Development. 
 
-Link to deployed site: 
-?
+Link to deployed site: (https://llywelyn1282.github.io/earth-quiz/)
 
 ![Welcome to EarthQuiz](/documentation/mockup.png) 
 
@@ -13,6 +12,9 @@ Link to deployed site:
 ## CONTENTS
 
 * [User Experience](#user-experience)
+  * [Project Goals](#project-goals)
+  * [Target Audience](#target-audience)
+  * [User Stories](#user-story-1)
 
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
@@ -44,6 +46,33 @@ Link to deployed site:
 - - -
 
 ## User Experience
+
+### Project Goals
+My project goals are to create a geography based quiz game which produces a score at the end.
+
+### Target Audience
+The target audience of the project are individuals of all ages who have an interesting in testing and improving their knowledge of geography.
+
+### User Story 1
+“As a user of the site I want to be able to easily identify its purpose.”
+
+### User Story 2
+“As a user of the site I want to be able to easily navigate the site and across different pages.”
+
+### User Story 3
+“As a user of the site I want to be able to test and improve my geography knowledge.”
+
+### User Story 4
+“As a user of the site I want to be able to see my score upon the completion of the quiz to be able to track my performance.”
+
+### User Story 5
+“As a user of the site I want to be able to be able to easily locate the social media channels of the site to keep track of updates and other potential quizzes in the making.”
+
+### User Story 6
+“As a user of the site I want to be able to contact the makers of the site with any questions or compliments I might have.”
+
+### User Story 7
+“As an administrator for the site I want to be able to update the site and features quickly and easily.”
 
 
 - - -
@@ -78,18 +107,32 @@ Icons were used from [Font Awesome](https://fontawesome.com/icons)
 
 Favicon generated using [favicon.io](https://favicon.io/) 
 
-![Favicon](/documentation/favicon-image.png)
+![Favicon](/documentation/favicon.png)
 
 ### Wireframes
 
 Wireframes were created for mobile and desktop using Balsamiq.
 
-?
+Home Page
+
+![Home Page](/documentation/wireframes/wf-home.png)
+
+Questions
+
+![Questions](/documentation/wireframes/wf-questions.png)
+
+End Message
+
+![End Message](/documentation/wireframes/wf-complete.png)
+
+Contact Page
+
+![Contact Page](/documentation/wireframes/wf-contact.png)
 
 
 ## Features
 
-The website is comprised of ? pages:
+The website is comprised of 3 pages:
 
 ?
 
@@ -185,7 +228,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully. 
 
-The live link can be found here - 
+The live link can be found here - (https://llywelyn1282.github.io/earth-quiz/)
 
 #### How to Clone
 
@@ -208,20 +251,6 @@ The project will now of been cloned on your local machine for use.
 Stackoverflow questions page used to learn how to pin header and footer to the top and bottom of the page respectively:
 
 https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
-
-W3schools page used to learn how to link phone number in contact information:
-
-https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_phoneto
-
-W3schools page used to learn how to link email address in contact information:
-
-https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto
-
-##### Bootstrap Components  
-
-* Bootstrap Grid and Flexbox used across all pages
-* Navbar
-* Form
 
 ### Content
 

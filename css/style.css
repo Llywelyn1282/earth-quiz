@@ -42,10 +42,11 @@ footer {
   color: var(--color-5);
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   padding: 1rem;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 /*Keeps Header and Footer in Place */
