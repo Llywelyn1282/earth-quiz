@@ -88,9 +88,9 @@ CSS
 
 ### Fixed Bugs
 
-*
+* Padding issues
 
-*
+* 
 
 *
 
