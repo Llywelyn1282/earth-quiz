@@ -57,51 +57,68 @@ The target audience of the project are individuals of all ages who have an inter
 “As a user of the site I want to be able to easily identify its purpose.”
 
 #### Acceptance Criteria
+* Clear branding and simple explanations on the home page.
 
 #### Tasks
+* Create a navigation bar with an easily readable logo.
+* Create a simple explanative introduction box before the quiz starts.
 
 ### User Story 2
 “As a user of the site I want to be able to easily navigate the site and across different pages.”
 
 #### Acceptance Criteria
+* An easily readable and usable navigation bar.
+* Simple and effective buttons to navigate through the quiz itself.
 
 #### Tasks
+* Create a navigation bar.
+* Create clear buttons to answer questions and move through the quiz.
 
 ### User Story 3
 “As a user of the site I want to be able to test and improve my geography knowledge.”
 
 #### Acceptance Criteria
+* Simply worded and engaging quiz questions.
 
 #### Tasks
+* Create a series of geography based quiz questions.
 
 ### User Story 4
 “As a user of the site I want to be able to see my score upon the completion of the quiz to be able to track my performance.”
 
 #### Acceptance Criteria
+* Score total displayed on completion screen.
 
 #### Tasks
+* Create code which verifies the score, tallies it up and displays it in a simple and easy to read manner.
 
 ### User Story 5
 “As a user of the site I want to be able to be able to easily locate the social media channels of the site to keep track of updates and other potential quizzes in the making.”
 
 #### Acceptance Criteria
+* Easily reachable social media channels linked to the site.
 
 #### Tasks
+* Create a footer which displays and links social media profiles.
 
 ### User Story 6
 “As a user of the site I want to be able to contact the makers of the site with any questions or compliments I might have.”
 
 #### Acceptance Criteria
+* A valid method of users being able to contact the creators of this site.
 
 #### Tasks
+* Create a contact page with either contact details or a booking form.
 
 ### User Story 7
 “As an administrator for the site I want to be able to update the site and features quickly and easily.”
 
 #### Acceptance Criteria
+* Clearly labled and commented code for easy navigation when editing by myself or future users.
 
 #### Tasks
-
+* Keep an organised work space.
+* Use comments to clearly sign and section off code.
 
 - - -
 
@@ -162,33 +179,39 @@ Contact Page
 
 The website is comprised of 3 pages:
 
-?
-
+* A Home Page
+* A Contact Page
+* A 404 Page
 
 ### Site Wide
 
 __Navbar__
   
-* Bootstrap navbar styled to have right sided margin and burger icon on smaller devices. Contains links to Home and Contact.
+* Navbar styled to have right sided margin and burger icon on smaller devices. Contains links to Home and Contact.
   
   ![Navbar](/documentation/navbar.png)
 
 __Footer__
 
-* Footer containing contact information, social media links and opening times for the business is displayed on all pages of the website. 
+* Footer containing social media links is displayed on all pages of the website. 
 
   ![Footer](/documentation/footer.png)
 
 ### Home Page
 
-* ?
+* A Home page displaying an introductionary section that leads to the quiz itself, the questions and the completion section.
 
 ![Home Page](/documentation/home-page.png)
 
+### Contact Page
+
+* A Contact page displaying an email address for 
+
+![Contact Page](/documentation/contact-page.png)
 
 ### 404 Error Page
 
-* A 404 page is in place to display if a user navigates to a broken link. The page has a link that allows users to navigate back to the homepage and automatically redirects back to the homepage after 20 seconds.
+* A 404 page is in place to display if a user navigates to a broken link. The page has a link that allows users to navigate back to the homepage and automatically redirects back to the homepage after 10 seconds.
 
 ![404 Error Page](/documentation/404.png)
 

@@ -50,8 +50,18 @@
 
     <main>
       <div class="contact-container">
-        <p>Want to get in touch? Drop us an email below:</p>
-        <p><i class="fa-solid fa-envelope"></i> info@earthquiz.com</p>
+        <p>Want to get in touch? Drop us a message below:</p>
+        <form class="form">
+          <label for="first-name">First Name</label><br>
+          <input type="text" id="first-name" name="first-name" required><br>
+          <label for="last-name">Last Name</label><br>
+          <input type="text" id="last-name" name="last-name" required><br>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required><br>
+          <label for="message">Message</label><br>
+          <textarea name="message" rows="5" cols=""></textarea><br>
+          <input type="submit" name="submit">
+        </form>
       </div>
     </main>
 
