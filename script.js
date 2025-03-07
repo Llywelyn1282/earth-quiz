@@ -103,6 +103,7 @@ const d_text = document.getElementById("d_text");
 const submitBtn = document.getElementById("submit");
 const startBtn = document.getElementById("start");
 const intro = document.getElementById("intro");
+const reply = document.getElementById("contact-reply")
 
 let currentQuiz = 0;
 let score = 0;
@@ -186,3 +187,7 @@ submitBtn.addEventListener("click", () => {
     }
   }
 });
+
+function showReply() {
+  alert("Thank you for contacting us. We will get in touch with you as soon as possible.");
+  }

@@ -230,6 +230,10 @@ cursor: pointer;
     background-color: var(--color-4);
   }
 
+  #contact-reply {
+    display: none;
+  }
+
 
 /* Button */
 
