@@ -178,12 +178,56 @@ cursor: pointer;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
   width: 600px;
   overflow: hidden;
-  margin: 1rem;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  width: 100%;
+}
+
+input, #message {
+  width: 80%;
+  border-radius: 10px;
+  font-family: inherit;
+  background-color: var(--color-1);
+  border: none;
+}
+
+#name, #email {
+  height: 2rem;
+}
+
+#submit {
+    background-color: var(--color-3);
+    color: var(--color-5);
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: inherit;
+    padding: 1rem;
+    border-radius: 0%;
+  }
+  
+  #submit:hover {
+    background-color: var(--color-4);
+  }
+  
+  #submit:focus {
+    outline: none;
+    background-color: var(--color-4);
+  }
+
 
 /* Button */
 
