@@ -116,6 +116,7 @@ main {
 
 .intro-header {
   padding: 1.5rem;
+  font-size: 1.5rem;
   text-align: center;
   margin: 0;
 }
@@ -146,13 +147,10 @@ main {
 }
 
 .quiz-header {
+  font-size: 1.5rem;
   padding: 1.5rem;
-}
-
-h2 {
-  padding: 1rem;
-text-align: center;
-margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 ul {
@@ -264,4 +262,26 @@ button:focus {
   width: 50%;
   display: flex;
   margin: auto;
+}
+
+@media screen and (max-width:576px) { 
+.nav-container a {
+  font-size: 18px;
+}
+.nav-container a.logo {
+  font-size: 25px;
+}
+
+.intro-header, .quiz-header {
+  font-size: 1.2rem;
+}
+
+.intro-container, .quiz-container, .contact-container {
+  width: 80%;
+}
+
+.intro-text, ul li {
+  font-size: 1rem;
+}
+
 }
