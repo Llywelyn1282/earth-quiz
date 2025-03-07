@@ -219,7 +219,10 @@ __Footer__
 
 In future implementations I would like to:
 
-?
+* Include the ability to log user names and scores.
+* Create a function for users to be able to post their score to social media, driving up engagement.
+* Offer a wider variety of quizzes.
+
 
 
 - - -
@@ -299,9 +302,21 @@ The project will now of been cloned on your local machine for use.
 
 ## Credits
 
-Stackoverflow questions page used to learn how to pin header and footer to the top and bottom of the page respectively:
+Quiz making tutorial I followed to learn the javascript functionality needed:
+https://archive.org/details/50-projects-in-50-days-html-css-java-script_202207/47+Day+46+-+Quiz+App/147+Project+Intro.mp4
 
+Quiz making tutorial I followed to learn the javascript functionality needed:
+https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack
+
+Stackoverflow questions page used to learn how to pin header and footer to the top and bottom of the page respectively:
 https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
+
+Where I found the confetti npm package:
+https://www.npmjs.com/package/canvas-confetti
+
+
+Page on randomising arrays where I found the Fisher-Yates Sorting Algorithm:
+https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/
 
 ### Content
 
@@ -309,4 +324,11 @@ Content for this project was written by Gwilym Llywelyn.
 
 ### Media
 
-- 
+High score image found on Unsplash and taken by Ian Stauffer:
+https://unsplash.com/photos/man-sitting-on-mountain-cliff-facing-white-clouds-rising-one-hand-at-golden-hour-bH7kZ0yazB0
+
+Mid score image found on Unsplash and taken by Jeremy Wilkinson:
+https://unsplash.com/photos/a-cat-laying-on-top-of-a-leather-chair-2YVzSo7oSMw
+
+Low score image found on Unsplash and taken by Ali Jouyandeh:
+https://unsplash.com/photos/man-in-white-dress-shirt-sitting-on-couch-W5f2832To9o

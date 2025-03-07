@@ -90,7 +90,7 @@ CSS
 
 * Padding issues
 
-* 
+* Targeting all inputs in css for contact page, instead of being more specific, messing up the quiz radios, solved by being more precise with targeting.
 
 *
 

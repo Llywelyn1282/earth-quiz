@@ -104,7 +104,7 @@ main {
 
 .intro-container {
   background-color: var(--color-5);
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
   width: 500px;
   overflow: hidden;
@@ -134,7 +134,7 @@ main {
 
 .quiz-container {
   background-color: var(--color-5);
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
   width: 600px;
   overflow: hidden;
@@ -174,7 +174,7 @@ cursor: pointer;
 
 .contact-container {
   background-color: var(--color-5);
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
   width: 600px;
   overflow: hidden;
@@ -194,9 +194,9 @@ cursor: pointer;
   width: 100%;
 }
 
-input, #message {
+.form input, #message {
   width: 80%;
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: inherit;
   background-color: var(--color-1);
   border: none;
@@ -265,4 +265,3 @@ button:focus {
   display: flex;
   margin: auto;
 }
-
