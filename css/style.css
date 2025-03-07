@@ -4,7 +4,7 @@
 :root {
   --color-1: #BBCDE5;
   --color-2: #639FAB;
-  --color-3: #5b85aa;
+  --color-3: #193c5a;
   --color-4: #1C5D99;
   --color-5: #ffffff;
   --color-6: #222222;
@@ -204,6 +204,10 @@ cursor: pointer;
   height: 2rem;
 }
 
+#message {
+  margin-bottom: 1rem;
+}
+
 #submit {
     background-color: var(--color-3);
     color: var(--color-5);
@@ -230,7 +234,7 @@ cursor: pointer;
 /* Button */
 
 button {
-  background-color: var(--color-3);
+  background-color: var(--color-4);
   color: var(--color-5);
   border: none;
   display: block;
@@ -242,12 +246,12 @@ button {
 }
 
 button:hover {
-  background-color: var(--color-4);
+  background-color: var(--color-3);
 }
 
 button:focus {
   outline: none;
-  background-color: var(--color-4);
+  background-color: var(--color-3);
 }
 
 /* Images */
