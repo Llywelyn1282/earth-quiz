@@ -349,14 +349,17 @@ submitBtn.addEventListener("click", () => {
             <div class="img-container" role="img" aria-label="A man with his head in his hands">
             <img src="assets/bad.webp">
             </div>
-            <h2> Oof. You answered ${score} out of ${quizData.length} questions correctly. Better luck next time.</h2>
-            <button onclick="location.reload ()">Try Again?</button>`;
+            <h1 class="end-header">Oof<h1>
+            <p class="end-text">You answered ${score} out of ${quizData.length} questions correctly. Better luck next time.</p>
+            <button onclick="location.reload ()">Try Again?</button>
+            `;
         } else if (score < 7) {
           quiz.innerHTML = `
             <div class="img-container" role="img" aria-label="A large sat on a sofa with a blank expression">
             <img src="assets/ok.webp">
             </div>
-            <h2> Not bad. You answered ${score} out of ${quizData.length} questions correctly. Keep practising.</h2>
+            <h1 class="end-header">Not Bad</h1>
+            <p class="end-text">You answered ${score} out of ${quizData.length} questions correctly. Keep practising.</p>
             <button onclick="location.reload ()">Try Again?</button>`;
         } else {
           confetti();
@@ -364,7 +367,8 @@ submitBtn.addEventListener("click", () => {
             <div class="img-container" role="img" aria-label="A man atop a mountain looking at the horizon.">
             <img src="assets/good.webp">
             </div>
-            <h2> Well done! You answered ${score} out of ${quizData.length} questions correctly.</h2>
+            <h1 class="end-header">Well done!</h1>
+            <p class="end-text"> You answered ${score} out of ${quizData.length} questions correctly.</p>
             <button onclick="location.reload ()">Try Again?</button>`;
         }
       }
