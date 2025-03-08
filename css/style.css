@@ -181,6 +181,7 @@ cursor: pointer;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .form {
@@ -263,11 +264,16 @@ button:focus {
 }
 
 #medium {
- background-color: #FD5C01;
+ background-color: #D61F1F;
 }
 
 #hard {
-  background-color: #D61F1F;
+  background-color: #660A00;
+}
+
+.button-container {
+  display: flex;
+  gap: 1px;
 }
 
 /* Images */
