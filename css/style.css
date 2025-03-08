@@ -258,6 +258,18 @@ button:focus {
   background-color: var(--color-3);
 }
 
+#easy {
+  background-color: #006B3D;
+}
+
+#medium {
+ background-color: #FD5C01;
+}
+
+#hard {
+  background-color: #D61F1F;
+}
+
 /* Images */
 
 .img-container {
@@ -291,5 +303,4 @@ button:focus {
 .intro-text, ul li {
   font-size: 1rem;
 }
-
 }
