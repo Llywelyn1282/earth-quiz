@@ -58,23 +58,41 @@ Testing was focused to ensure the following criteria were met:
 
 ![404](documentation/404-lighthouse.png)
 
+### Testing User Stories
+
+| Goals                 | How are they achieved? |
+| --------------------- | ---------------------- | 
+| “As a user of the site I want to be able to easily identify its purpose.” | Informative text on Home Page |
+| “As a user of the site I want to be able to easily navigate the site and across different pages.” | Functioning Navbar |
+| “As a user of the site I want to be able to test and improve my geography knowledge.” | Multiple quizzes |
+| “As a user of the site I want to be able to see my score upon the completion of the quiz to be able to track my performance.” | Score counted and displayed upon completion of the quiz |
+| “As a user of the site I want to be able to be able to easily locate the social media channels of the site to keep track of updates and other potential quizzes in the making.” | Social media links in the footer |
+| “As a user of the site I want to be able to contact the makers of the site with any questions or compliments I might have.” | Contact Page with functioning form |
+| “As a user of the site I would like to be able to play quizzes of varying difficulties.” | Three seperate quizzes of varying difficulties |
+| “As an administrator for the site I want to be able to update the site and features quickly and easily.” | Tidily formatted and sectioned off code |
+
 
 ### Functional Testing
 
-**Navigation Links**
-
-Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
-
-| Navigation Link | Page to Load        |
-| --------------- | ---------------     |
-| Home            | index.html          |
-| Contact         | contact.html        |
-
-Links on all pages navigated to the correct pages as exptected.
-
-**Page Links**
-
-?
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+|---------|------------------|-------------------|--------|-----------|
+| `Navbar` | | | | |
+| Home Page Nav Link | Home Page Loads | Clicked on Link | Taken to Page | Pass |
+| Contact Page Nav Link | Contact Page Loads | Clicked on Link | Taken to Page | Pass |
+| `Footer` | | | | |
+| Facebook Link | Opens Facebook in New Tab | Clicked on Link | Opens Facebook in New Tab | Pass |
+| YouTube Link | Opens YouTube in New Tab | Clicked on Link | Opens YouTube in New Tab | Pass |
+| Instagram Link | Opens Instagram in New Tab | Clicked on Link | Opens Instagram in New Tab | Pass |
+| `Home Page` | | | | |
+| Easy Button | Loads Easy Difficulty Quiz | Clicked on Button | Loads Easy Difficulty Quiz | Pass |
+| Medium Button | Loads Medium Difficulty Quiz | Clicked on Button | Loads Medium Difficulty Quiz | Pass |
+| Hard Button | Loads Hard Difficulty Quiz | Clicked on Button | Loads Hard Difficulty Quiz | Pass |
+| Answer Button | Loads Next Question | Clicked on Button | Loads Next Question | Pass |
+| Try Again Button | Takes User Back to Home Page | Clicked on Button | Takes User Back to Home Page | Pass |
+| `Contact Page` | | | | |
+| Send Button | Sends Form To Designated Address and Gives Succes Message | Clicked on Button | Sends Form To Designated Address and Gives Succes Message | Pass |
+| `404 Page` | | | | |
+| Back to Homepage Link | Takes User Back to Home Page | Clicked on Link | Takes User Back to Home Page | Pass |
 
 ### Validator Testing 
 
@@ -94,15 +112,13 @@ CSS
 
 ### Fixed Bugs
 
-* Padding issues
-
-* Targeting all inputs in css for contact page, instead of being more specific, messing up the quiz radios, solved by being more precise with targeting.
-
-* mode issues when adding different difficulties
+| Bug | Solution |
+|------|-----------|
+| Nav and Footer sitting off-center | Realised was styling the padding wrong, sending everything to the right unintentionally |
+| Styling all inputs, instead of just contact inputs, messing up the quiz functionality | Being more precise with targetting elements |
+| Only hard questions showing up when pressing any difficulty | Sorting out issues with mode with the help of a friend |
 
 ### Unfixed Bugs
 
-*
-
-*
+* No known bugs.
 
