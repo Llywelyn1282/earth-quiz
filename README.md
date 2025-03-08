@@ -259,7 +259,7 @@ JavaScript
 
 [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
-[EmailJS](https://www.emailjs.com/) - 
+[EmailJS](https://www.emailjs.com/) - Used to forward contact forms to and email address and auto-reply a message to the sender.
 
 [Github](https://github.com/) - To save and store the files for the website.
 
