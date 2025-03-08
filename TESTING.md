@@ -50,6 +50,10 @@ Testing was focused to ensure the following criteria were met:
 
 ![Home](documentation/index-lighthouse.png)
 
+#### __Contact Page__
+
+![Contact](documentation/contact-lighthouse.png)
+
 #### __404 Page__
 
 ![404](documentation/404-lighthouse.png)
@@ -64,7 +68,7 @@ Testing was performed to ensure all navigation links on the respective pages, na
 | Navigation Link | Page to Load        |
 | --------------- | ---------------     |
 | Home            | index.html          |
- |
+| Contact         | contact.html        |
 
 Links on all pages navigated to the correct pages as exptected.
 
@@ -79,6 +83,8 @@ HTML
 
   ![Index HTML Validator Results](documentation/home-validation.png)
 
+  ![Contact HTML Validator Results](documentation/home-validation.png)
+
   ![404 HTML Validator Results](documentation/404-validation.png)
 
 CSS
@@ -92,7 +98,7 @@ CSS
 
 * Targeting all inputs in css for contact page, instead of being more specific, messing up the quiz radios, solved by being more precise with targeting.
 
-*
+* mode issues when adding different difficulties
 
 ### Unfixed Bugs
 

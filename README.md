@@ -111,6 +111,17 @@ The target audience of the project are individuals of all ages who have an inter
 * Create a contact page with either contact details or a booking form.
 
 ### User Story 7
+“As a user of the site I would like to be able to play quizzes of varying difficulties.”
+
+#### Acceptance Criteria
+* An easy, medium and hard quiz available for users to play.
+
+#### Tasks
+* Write multiple sets of quiz questions in varying difficulties.
+* A simple menu to choose difficulty.
+* Javascript functionality to summon different sets of question depending on that choice.
+
+### User Story 8
 “As an administrator for the site I want to be able to update the site and features quickly and easily.”
 
 #### Acceptance Criteria
@@ -248,6 +259,8 @@ JavaScript
 
 [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
+[EmailJS](https://www.emailjs.com/) - 
+
 [Github](https://github.com/) - To save and store the files for the website.
 
 [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
@@ -314,9 +327,10 @@ https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-
 Where I found the confetti npm package:
 https://www.npmjs.com/package/canvas-confetti
 
-
 Page on randomising arrays where I found the Fisher-Yates Sorting Algorithm:
 https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/
+
+Also thanks to Gareth McGirr, Alice Dean and Nick Le Mesurier for their additional advice and assistance.
 
 ### Content
 
