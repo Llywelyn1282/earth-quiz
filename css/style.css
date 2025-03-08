@@ -311,7 +311,11 @@ button:focus {
 }
 
 footer {
-  height: 100px;
-  transform: scale(0.7) ;
+  height: 150px;
+}
+
+.socials {
+  transform: scale();
+  margin-bottom: 80px;
 }
 }
