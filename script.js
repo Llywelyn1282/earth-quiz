@@ -1,11 +1,11 @@
 const easyQuizData = [
-  { 
+  {
     question: "What is the longest river on Earth?",
     a: "Amazon",
     b: "Nile",
     c: "Yangtze",
     d: "Mississippi",
-    correct: "b",
+    correct: "b"
   },
   {
     question: "What is the tallest mountain on Earth?",
@@ -13,7 +13,7 @@ const easyQuizData = [
     b: "Mont Blanc",
     c: "Kilimanjaro",
     d: "Mount Everest",
-    correct: "d",
+    correct: "d"
   },
   {
     question: "What is the largest country on Earth?",
@@ -21,7 +21,7 @@ const easyQuizData = [
     b: "China",
     c: "Russia",
     d: "India",
-    correct: "c",
+    correct: "c"
   },
   {
     question: "What do you call a smaller river that flows into a larger river?",
@@ -29,7 +29,7 @@ const easyQuizData = [
     b: "Estuary",
     c: "Delta",
     d: "Channel",
-    correct: "a",
+    correct: "a"
   },
   {
     question: "Which country has the largest population on Earth?",
@@ -37,7 +37,7 @@ const easyQuizData = [
     b: "USA",
     c: "China",
     d: "Indonesia",
-    correct: "c",
+    correct: "c"
   },
   {
     question: "In which country are the Pyramids of Giza located?",
@@ -45,7 +45,7 @@ const easyQuizData = [
     b: "Peru",
     c: "Cambodia",
     d: "Egypt",
-    correct: "d",
+    correct: "d"
   },
   {
     question: "What is the smallest country in the world?",
@@ -53,7 +53,7 @@ const easyQuizData = [
     b: "Vatican City",
     c: "Lichtenstein",
     d: "Andorra",
-    correct: "b",
+    correct: "b"
   },
   {
     question: "How many states make up the USA?",
@@ -61,7 +61,7 @@ const easyQuizData = [
     b: "48",
     c: "52",
     d: "36",
-    correct: "a",
+    correct: "a"
   },
   {
     question: "Which is the tallest waterfall on Earth?",
@@ -69,7 +69,7 @@ const easyQuizData = [
     b: "Angel Falls",
     c: "Niagra Falls",
     d: "Victoria Falls",
-    correct: "b",
+    correct: "b"
   },
   {
     question: "Which country is home to the Eiffel Tower?",
@@ -77,8 +77,8 @@ const easyQuizData = [
     b: "Spain",
     c: "France",
     d: "India",
-    correct: "c",
-  },
+    correct: "c"
+  }
 ];
 
 const mediumQuizData = [
@@ -88,7 +88,7 @@ const mediumQuizData = [
     b: "Australia",
     c: "Antarctica",
     d: "Asia",
-    correct: "c",
+    correct: "c"
   },
   {
     question: "What is the largest ocean on Earth?",
@@ -96,7 +96,7 @@ const mediumQuizData = [
     b: "Indian Ocean",
     c: "Arctic Ocean",
     d: "Pacific Ocean",
-    correct: "d",
+    correct: "d"
   },
   {
     question: "What is the largest island on Earth?",
@@ -104,7 +104,7 @@ const mediumQuizData = [
     b: "New Guinea",
     c: "Borneo",
     d: "Madagascar",
-    correct: "a",
+    correct: "a"
   },
   {
     question: "Which country is home to the largest rainforest on Earth?",
@@ -112,7 +112,7 @@ const mediumQuizData = [
     b: "Indonesia",
     c: "Congo",
     d: "Peru",
-    correct: "a",
+    correct: "a"
   },
   {
     question: "Which desert is the hottest on Earth?",
@@ -120,7 +120,7 @@ const mediumQuizData = [
     b: "Sonoran Desert",
     c: "Lut Desert",
     d: "Kalahari Desert",
-    correct: "a",
+    correct: "a"
   },
   {
     question: "Which of these countries is on the Equator?",
@@ -128,7 +128,7 @@ const mediumQuizData = [
     b: "France",
     c: "Uganda",
     d: "Turkey",
-    correct: "c",
+    correct: "c"
   },
   {
     question: "Which of these countries is not landlocked?",
@@ -136,7 +136,7 @@ const mediumQuizData = [
     b: "Kazakhstan",
     c: "Serbia",
     d: "Iraq",
-    correct: "d",
+    correct: "d"
   },
   {
     question: "On which continent is the Yellow River located?",
@@ -144,7 +144,7 @@ const mediumQuizData = [
     b: "Asia",
     c: "Europe",
     d: "North America",
-    correct: "b",
+    correct: "b"
   },
   {
     question: "What is the most populous city in the world?",
@@ -152,7 +152,7 @@ const mediumQuizData = [
     b: "Tokyo, Japan",
     c: "Dhaka, Bangladesh",
     d: "Delhi, India",
-    correct: "b",
+    correct: "b"
   },
   {
     question: "What is the capital city of Canada?",
@@ -160,7 +160,7 @@ const mediumQuizData = [
     b: "Calgary",
     c: "Ottawa",
     d: "Montreal",
-    correct: "c",
+    correct: "c"
   }
 ];
 
@@ -171,7 +171,7 @@ const hardQuizData = [
     b: "Lake Baikal",
     c: "Lake Como",
     d: "Lake Superior",
-    correct: "b",
+    correct: "b"
   },
   {
     question: "Which country has the most active volcanoes?",
@@ -179,7 +179,7 @@ const hardQuizData = [
     b: "Indonesia",
     c: "Japan",
     d: "Iceland",
-    correct: "b",
+    correct: "b"
   },
   {
     question: "What is the highest permanent human settlement on Earth?",
@@ -187,7 +187,7 @@ const hardQuizData = [
     b: "La Rinconada, Peru",
     c: "Karzok, India",
     d: "Tuiwa, China",
-    correct: "b",
+    correct: "b"
   },
   {
     question: "What is the deepest part of the Earth's oceans?",
@@ -195,7 +195,7 @@ const hardQuizData = [
     b: "Kuril-Kamchatka Trench",
     c: "Mariana Trench",
     d: "Phillippine Trench",
-    correct: "c",
+    correct: "c"
   },
   {
     question: "What is the newest country on Earth?",
@@ -203,7 +203,7 @@ const hardQuizData = [
     b: "Montenegro",
     c: "Palau",
     d: "East Timor",
-    correct: "a",
+    correct: "a"
   },
   {
     question: "What is the lowest land point on Earth?",
@@ -211,7 +211,7 @@ const hardQuizData = [
     b: "Death Valley",
     c: "Afar Depression",
     d: "Turfan Depression",
-    correct: "a",
+    correct: "a"
   },
   {
     question: "What is the most remote island on Earth?",
@@ -219,7 +219,7 @@ const hardQuizData = [
     b: "Tristan da Cunha",
     c: "Easter Island",
     d: "Pitcairn Island",
-    correct: "a",
+    correct: "a"
   },
   {
     question: "What is the hottest permanently inhabited place of Earth?",
@@ -227,7 +227,7 @@ const hardQuizData = [
     b: "Oodnadatta, Australia",
     c: "Furnace Creek, USA",
     d: "Dallol, Ethiopia",
-    correct: "d",
+    correct: "d"
   },
   {
     question: "What is the coldest permanently inhabited place of Earth?",
@@ -235,7 +235,7 @@ const hardQuizData = [
     b: "Ifrane, Morocco",
     c: "Sarmiento, Argentina",
     d: "Oymyakon, Russia",
-    correct: "d",
+    correct: "d"
   },
   {
     question: "What is the largest living animal on Earth?",
@@ -243,8 +243,8 @@ const hardQuizData = [
     b: "Blue Whale",
     c: "Grey Whale",
     d: "Sperm Whale",
-    correct: "b",
-  },
+    correct: "b"
+  }
 ];
 
 // fisher-yates shuffle code
@@ -355,7 +355,7 @@ submitBtn.addEventListener("click", () => {
             `;
         } else if (score < 7) {
           quiz.innerHTML = `
-            <div class="img-container" role="img" aria-label="A large sat on a sofa with a blank expression">
+            <div class="img-container" role="img" aria-label="A large cat on a sofa with a blank expression">
             <img src="assets/ok.webp">
             </div>
             <h1 class="end-header">Not Bad</h1>

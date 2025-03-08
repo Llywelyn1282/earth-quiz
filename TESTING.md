@@ -101,7 +101,7 @@ HTML
 
   ![Index HTML Validator Results](documentation/home-validation.png)
 
-  ![Contact HTML Validator Results](documentation/home-validation.png)
+  ![Contact HTML Validator Results](documentation/contact-validation.png)
 
   ![404 HTML Validator Results](documentation/404-validation.png)
 
@@ -109,6 +109,15 @@ CSS
   - No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org)
   
   ![CSS Validator Results](documentation/css-validation.png)
+
+JavaScript
+ - 11 warnings were found when passing through the official [JSLint Validator](https://www.jslint.com/), but luckily no errors. The warnings relate entirely to lines being over 8 characters and the code for the Fisher-Yates Algorithm which I borrowed from another page.
+  
+  ![JavaScript Validator Results 1](documentation/js-validation-1.png)
+
+  ![JavaScript Validator Results 2](documentation/js-validation-2.png)
+
+
 
 ### Fixed Bugs
 
