@@ -312,5 +312,6 @@ button:focus {
 
 footer {
   height: 100px;
+  transform: scale(0.7) ;
 }
 }
