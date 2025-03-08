@@ -346,14 +346,14 @@ submitBtn.addEventListener("click", () => {
       } else {
         if (score < 4) {
           quiz.innerHTML = `
-            <div class="img-container">
+            <div class="img-container" role="img" aria-label="A man with his head in his hands">
             <img src="assets/bad.webp">
             </div>
             <h2> Oof. You answered ${score} out of ${quizData.length} questions correctly. Better luck next time.</h2>
             <button onclick="location.reload ()">Try Again?</button>`;
         } else if (score < 7) {
           quiz.innerHTML = `
-            <div class="img-container">
+            <div class="img-container" role="img" aria-label="A large sat on a sofa with a blank expression">
             <img src="assets/ok.webp">
             </div>
             <h2> Not bad. You answered ${score} out of ${quizData.length} questions correctly. Keep practising.</h2>
@@ -361,7 +361,7 @@ submitBtn.addEventListener("click", () => {
         } else {
           confetti();
           quiz.innerHTML = `
-            <div class="img-container">
+            <div class="img-container" role="img" aria-label="A man atop a mountain looking at the horizon.">
             <img src="assets/good.webp">
             </div>
             <h2> Well done! You answered ${score} out of ${quizData.length} questions correctly.</h2>
