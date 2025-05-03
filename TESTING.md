@@ -126,6 +126,7 @@ JavaScript
 | Nav and Footer sitting off-center | Realised was styling the padding wrong, sending everything to the right unintentionally |
 | Styling all inputs, instead of just contact inputs, messing up the quiz functionality | Being more precise with targetting elements |
 | Only hard questions showing up when pressing any difficulty | Sorting out issues with mode with the help of a friend |
+| Testing file not linked in README.md | Linked TESTING.md to README.md |
 
 ### Unfixed Bugs
 

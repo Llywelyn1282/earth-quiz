@@ -276,6 +276,13 @@ JavaScript
 
 - - -
 
+## Testing
+
+Testing is listed in a separate file which can be found here: [TESTING.md](TESTING.md)
+
+
+- - -
+
 ## Deployment & Local Development
 
 The following git commands were used throughout development to push code to the remote repo:
