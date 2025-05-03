@@ -249,16 +249,15 @@ const hardQuizData = [
 
 // fisher-yates shuffle code
 
-function shuffle(array) {
-  let i = 0;
-  for ( i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    let temp = array[i];
-    array[i] = array[j];
-    array[j] = temp;
+const shuffle = array => {
+  let shuffledArray = [...array]; // Makes a copy
+  for (let i = shuffledArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
   }
-  return array;
-}
+  return shuffledArray;
+};
+
 
 // shuffle function to rearrange question order when quiz reloads
 
