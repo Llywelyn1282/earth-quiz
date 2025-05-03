@@ -51,7 +51,7 @@ const easyQuizData = [
     question: "What is the smallest country in the world?",
     a: "San Marino",
     b: "Vatican City",
-    c: "Lichtenstein",
+    c: "Liechtenstein",
     d: "Andorra",
     correct: "b"
   },
@@ -67,7 +67,7 @@ const easyQuizData = [
     question: "Which is the tallest waterfall on Earth?",
     a: "Yosemite Falls",
     b: "Angel Falls",
-    c: "Niagra Falls",
+    c: "Niagara Falls",
     d: "Victoria Falls",
     correct: "b"
   },
@@ -194,7 +194,7 @@ const hardQuizData = [
     a: "Tonga Trench",
     b: "Kuril-Kamchatka Trench",
     c: "Mariana Trench",
-    d: "Phillippine Trench",
+    d: "Philippine Trench",
     correct: "c"
   },
   {
@@ -296,20 +296,18 @@ function startGame(mode) {
   loadQuiz();
 }
 
-function loadQuiz(mode) {
+function loadQuiz() {
   deselectAnswers();
 
-  let currentQuizData = [];
   if (quizMode === 1) {
-    quizData =  easyQuizData;
-    currentQuizData = easyQuizData[currentQuiz];
-  }
-  else if (quizMode === 2) {
-    quizData =  mediumQuizData;
-    currentQuizData = mediumQuizData[currentQuiz];
+    quizData = shuffledEasyQuizData;
+    currentQuizData = quizData[currentQuiz];
+  } else if (quizMode === 2) {
+    quizData = shuffledMediumQuizData;
+    currentQuizData = quizData[currentQuiz];
   } else {
-    quizData =  hardQuizData;
-    currentQuizData = hardQuizData[currentQuiz];
+    quizData = shuffledHardQuizData;
+    currentQuizData = quizData[currentQuiz];
   }
 
 
@@ -321,7 +319,8 @@ function loadQuiz(mode) {
 }
 
 function deselectAnswers() {
-  answerEls.forEach((answerEl) => (answerEl.checked === false));
+  answerEls.forEach((answerEl) => answerEl.checked = false);
+
 }
 
 function getSelected() {
@@ -355,22 +354,22 @@ submitBtn.addEventListener("click", () => {
              aria-label="A man with his head in his hands">
             <img src="assets/bad.webp">
             </div>
-            <h1 class="end-header">Oof<h1>
-            <p class="end-text">You answered ${score} 
-            out of ${quizData.length} questions correctly.
+            <h1 class="end-header">Oof</h1>
+            <p class="end-text">You answered ${score}
+             out of ${quizData.length} questions correctly.
              Better luck next time.</p>
             <button onclick="location.reload ()">Try Again?</button>
             `;
         } else if (score < 7) {
           quiz.innerHTML = `
-            <div class="img-container" role="img" 
-            aria-label="A large cat on a sofa with a blank expression">
+            <div class="img-container" role="img"
+             aria-label="A large cat on a sofa with a blank expression">
             <img src="assets/ok.webp">
             </div>
             <h1 class="end-header">Not Bad</h1>
             <p class="end-text">
-            You answered ${score} out of 
-            ${quizData.length} questions correctly.
+            You answered ${score} out of
+             ${quizData.length} questions correctly.
              Keep practising.</p>
             <button onclick="location.reload ()">Try Again?</button>`;
         } else {
