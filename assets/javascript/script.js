@@ -278,7 +278,8 @@ const mediumBtn = document.getElementById("medium");
 const hardBtn = document.getElementById("hard");
 const submitBtn = document.getElementById("submit");
 const intro = document.getElementById("intro");
-const reply = document.getElementById("contact-reply")
+const reply = document.getElementById("contact-reply");
+var currentQuizData = NaN;
 
 let quizData = [];
 let currentQuiz = 0;
@@ -373,7 +374,7 @@ submitBtn.addEventListener("click", () => {
              Keep practising.</p>
             <button onclick="location.reload ()">Try Again?</button>`;
         } else {
-          confetti();
+          confetti(); // Summons confetti, loads from CDN link in index.html
           quiz.innerHTML = `
             <div class="img-container" role="img"
              aria-label="A man atop a mountain looking at the horizon.">
