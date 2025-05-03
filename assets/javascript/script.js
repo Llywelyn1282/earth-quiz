@@ -24,7 +24,7 @@ const easyQuizData = [
     correct: "c"
   },
   {
-    question: "What do you call a smaller river that flows into a larger river?",
+    question: "What do you call a river that flows into a larger river?",
     a: "Tributary",
     b: "Estuary",
     c: "Delta",
@@ -250,15 +250,17 @@ const hardQuizData = [
 // fisher-yates shuffle code
 
 function shuffle(array) {
-  let i = 0
+  let i = 0;
   for ( i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    var temp = array[i];
+    let temp = array[i];
     array[i] = array[j];
     array[j] = temp;
   }
   return array;
 }
+
+// shuffle function to rearrange question order when quiz reloads
 
 const shuffledEasyQuizData = shuffle(easyQuizData);
 const shuffledMediumQuizData = shuffle(mediumQuizData);
@@ -298,11 +300,11 @@ function loadQuiz(mode) {
   deselectAnswers();
 
   let currentQuizData = [];
-  if (quizMode == 1) {
+  if (quizMode === 1) {
     quizData =  easyQuizData;
     currentQuizData = easyQuizData[currentQuiz];
   }
-  else if (quizMode == 2) {
+  else if (quizMode === 2) {
     quizData =  mediumQuizData;
     currentQuizData = mediumQuizData[currentQuiz];
   } else {
@@ -319,7 +321,7 @@ function loadQuiz(mode) {
 }
 
 function deselectAnswers() {
-  answerEls.forEach((answerEl) => (answerEl.checked = false));
+  answerEls.forEach((answerEl) => (answerEl.checked === false));
 }
 
 function getSelected() {
@@ -349,29 +351,38 @@ submitBtn.addEventListener("click", () => {
       } else {
         if (score < 4) {
           quiz.innerHTML = `
-            <div class="img-container" role="img" aria-label="A man with his head in his hands">
+            <div class="img-container" role="img"
+             aria-label="A man with his head in his hands">
             <img src="assets/bad.webp">
             </div>
             <h1 class="end-header">Oof<h1>
-            <p class="end-text">You answered ${score} out of ${quizData.length} questions correctly. Better luck next time.</p>
+            <p class="end-text">You answered ${score} 
+            out of ${quizData.length} questions correctly.
+             Better luck next time.</p>
             <button onclick="location.reload ()">Try Again?</button>
             `;
         } else if (score < 7) {
           quiz.innerHTML = `
-            <div class="img-container" role="img" aria-label="A large cat on a sofa with a blank expression">
+            <div class="img-container" role="img" 
+            aria-label="A large cat on a sofa with a blank expression">
             <img src="assets/ok.webp">
             </div>
             <h1 class="end-header">Not Bad</h1>
-            <p class="end-text">You answered ${score} out of ${quizData.length} questions correctly. Keep practising.</p>
+            <p class="end-text">
+            You answered ${score} out of 
+            ${quizData.length} questions correctly.
+             Keep practising.</p>
             <button onclick="location.reload ()">Try Again?</button>`;
         } else {
           confetti();
           quiz.innerHTML = `
-            <div class="img-container" role="img" aria-label="A man atop a mountain looking at the horizon.">
+            <div class="img-container" role="img"
+             aria-label="A man atop a mountain looking at the horizon.">
             <img src="assets/good.webp">
             </div>
             <h1 class="end-header">Well done!</h1>
-            <p class="end-text"> You answered ${score} out of ${quizData.length} questions correctly.</p>
+            <p class="end-text"> You answered ${score}
+            out of ${quizData.length} questions correctly.</p>
             <button onclick="location.reload ()">Try Again?</button>`;
         }
       }
