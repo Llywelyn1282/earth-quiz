@@ -4,7 +4,7 @@ EarthQuiz was created as my second milestone project for the Code Institutes Lev
 
 Link to deployed site: (https://llywelyn1282.github.io/earth-quiz/)
 
-![Welcome to EarthQuiz](/documentation/mockup.png) 
+![Welcome to EarthQuiz](/assets/documentation/mockup.png) 
 
 
 - - -
@@ -139,7 +139,7 @@ The target audience of the project are individuals of all ages who have an inter
 
 ### Colour Scheme
 
-![Colour Scheme for EarthQuiz](/documentation/color-palette.png)
+![Colour Scheme for EarthQuiz](/assets/documentation/color-palette.png)
 
 ### Typography
 
@@ -149,13 +149,13 @@ I used Google Fonts to import the following fonts for use in the site:
 
 [Barrio](https://fonts.google.com/specimen/Barrio)
 
-![Sample](/documentation/barrio.png)
+![Sample](/assets/documentation/barrio.png)
 
 ##### Paragraphs 
 
 [Inter](https://fonts.google.com/specimen/Inter)
 
-![Sample](/documentation/inter.png)
+![Sample](/assets/documentation/inter.png)
 
 ##### Icons 
 
@@ -165,7 +165,7 @@ Icons were used from [Font Awesome](https://fontawesome.com/icons)
 
 Favicon generated using [favicon.io](https://favicon.io/) 
 
-![Favicon](/documentation/favicon.png)
+![Favicon](/assets/documentation/favicon.png)
 
 ### Wireframes
 
@@ -173,19 +173,19 @@ Wireframes were created for mobile and desktop using Balsamiq.
 
 Home Page
 
-![Home Page](/documentation/wireframes/wf-home.png)
+![Home Page](/assets/documentation/wireframes/wf-home.png)
 
 Questions
 
-![Questions](/documentation/wireframes/wf-questions.png)
+![Questions](/assets/documentation/wireframes/wf-questions.png)
 
 End Message
 
-![End Message](/documentation/wireframes/wf-complete.png)
+![End Message](/assets/documentation/wireframes/wf-complete.png)
 
 Contact Page
 
-![Contact Page](/documentation/wireframes/wf-contact.png)
+![Contact Page](/assets/documentation/wireframes/wf-contact.png)
 
 
 ## Features
@@ -202,31 +202,31 @@ __Navbar__
   
 * Navbar styled to have right sided margin and burger icon on smaller devices. Contains links to Home and Contact.
   
-  ![Navbar](/documentation/navbar.png)
+  ![Navbar](/assets/documentation/navbar.png)
 
 __Footer__
 
 * Footer containing social media links is displayed on all pages of the website. 
 
-  ![Footer](/documentation/footer.png)
+  ![Footer](/assets/documentation/footer.png)
 
 ### Home Page
 
 * A Home page displaying an introductionary section that leads to the quiz itself, the questions and the completion section.
 
-![Home Page](/documentation/home-page.png)
+![Home Page](/assets/documentation/home-page.png)
 
 ### Contact Page
 
 * A Contact page displaying an email address for 
 
-![Contact Page](/documentation/contact-page.png)
+![Contact Page](/assets/documentation/contact-page.png)
 
 ### 404 Error Page
 
 * A 404 page is in place to display if a user navigates to a broken link. The page has a link that allows users to navigate back to the homepage and automatically redirects back to the homepage after 10 seconds.
 
-![404 Error Page](/documentation/404.png)
+![404 Error Page](/assets/documentation/404.png)
 
 ### Future Implementations
 

@@ -48,15 +48,15 @@ Testing was focused to ensure the following criteria were met:
 
 #### __Home Page__
 
-![Home](documentation/index-lighthouse.png)
+![Home](/assets/documentation/index-lighthouse.png)
 
 #### __Contact Page__
 
-![Contact](documentation/contact-lighthouse.png)
+![Contact](/assets/documentation/contact-lighthouse.png)
 
 #### __404 Page__
 
-![404](documentation/404-lighthouse.png)
+![404](/assets/documentation/404-lighthouse.png)
 
 ### Testing User Stories
 
@@ -99,23 +99,23 @@ Testing was focused to ensure the following criteria were met:
 HTML
   - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org)
 
-  ![Index HTML Validator Results](documentation/home-validation.png)
+  ![Index HTML Validator Results](/assets/documentation/home-validation.png)
 
-  ![Contact HTML Validator Results](documentation/contact-validation.png)
+  ![Contact HTML Validator Results](/assets/documentation/contact-validation.png)
 
-  ![404 HTML Validator Results](documentation/404-validation.png)
+  ![404 HTML Validator Results](/assets/documentation/404-validation.png)
 
 CSS
   - No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org)
   
-  ![CSS Validator Results](documentation/css-validation.png)
+  ![CSS Validator Results](/assets/documentation/css-validation.png)
 
 JavaScript
  - 11 warnings were found when passing through the official [JSLint Validator](https://www.jslint.com/), but luckily no errors. The warnings relate entirely to lines being over 8 characters and the code for the Fisher-Yates Algorithm which I borrowed from another page.
   
-  ![JavaScript Validator Results 1](documentation/js-validation-1.png)
+  ![JavaScript Validator Results 1](/assets/documentation/js-validation-1.png)
 
-  ![JavaScript Validator Results 2](documentation/js-validation-2.png)
+  ![JavaScript Validator Results 2](/assets/documentation/js-validation-2.png)
 
 
 
