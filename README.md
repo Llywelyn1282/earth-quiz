@@ -33,6 +33,8 @@ Link to deployed site: (https://llywelyn1282.github.io/earth-quiz/)
   * [Libraries & Packages Used](#libraries--packages-used)
   * [Programs Used](#programs-used)
 
+* [Testing](#testing)
+
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)

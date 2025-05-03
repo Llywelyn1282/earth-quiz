@@ -249,13 +249,16 @@ const hardQuizData = [
 
 // fisher-yates shuffle code
 
-const shuffle = (array) => {
-  for (let i = array.length - 1; i > 0; i--) {
+function shuffle(array) {
+  let i = 0
+  for ( i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+    var temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
   }
   return array;
-};
+}
 
 const shuffledEasyQuizData = shuffle(easyQuizData);
 const shuffledMediumQuizData = shuffle(mediumQuizData);
