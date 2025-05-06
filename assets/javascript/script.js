@@ -277,7 +277,6 @@ const mediumBtn = document.getElementById("medium");
 const hardBtn = document.getElementById("hard");
 const submitBtn = document.getElementById("submit");
 const intro = document.getElementById("intro");
-const reply = document.getElementById("contact-reply");
 var currentQuizData = NaN;
 
 let quizData = [];
@@ -387,7 +386,3 @@ submitBtn.addEventListener("click", () => {
       }
     }
   });
-
-function showReply() {
-  alert("Thank you for contacting us. We will get in touch with you as soon as possible.");
-  }
