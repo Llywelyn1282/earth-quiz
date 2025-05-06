@@ -5,7 +5,7 @@ const easyQuizData = [
     b: "Nile",
     c: "Yangtze",
     d: "Mississippi",
-    correct: "b"
+    correct: "b",
   },
   {
     question: "What is the tallest mountain on Earth?",
@@ -13,7 +13,7 @@ const easyQuizData = [
     b: "Mont Blanc",
     c: "Kilimanjaro",
     d: "Mount Everest",
-    correct: "d"
+    correct: "d",
   },
   {
     question: "What is the largest country on Earth?",
@@ -21,7 +21,7 @@ const easyQuizData = [
     b: "China",
     c: "Russia",
     d: "India",
-    correct: "c"
+    correct: "c",
   },
   {
     question: "What do you call a river that flows into a larger river?",
@@ -29,7 +29,7 @@ const easyQuizData = [
     b: "Estuary",
     c: "Delta",
     d: "Channel",
-    correct: "a"
+    correct: "a",
   },
   {
     question: "Which country has the largest population on Earth?",
@@ -37,7 +37,7 @@ const easyQuizData = [
     b: "USA",
     c: "China",
     d: "Indonesia",
-    correct: "c"
+    correct: "c",
   },
   {
     question: "In which country are the Pyramids of Giza located?",
@@ -45,7 +45,7 @@ const easyQuizData = [
     b: "Peru",
     c: "Cambodia",
     d: "Egypt",
-    correct: "d"
+    correct: "d",
   },
   {
     question: "What is the smallest country in the world?",
@@ -53,7 +53,7 @@ const easyQuizData = [
     b: "Vatican City",
     c: "Liechtenstein",
     d: "Andorra",
-    correct: "b"
+    correct: "b",
   },
   {
     question: "How many states make up the USA?",
@@ -61,7 +61,7 @@ const easyQuizData = [
     b: "48",
     c: "52",
     d: "36",
-    correct: "a"
+    correct: "a",
   },
   {
     question: "Which is the tallest waterfall on Earth?",
@@ -69,7 +69,7 @@ const easyQuizData = [
     b: "Angel Falls",
     c: "Niagara Falls",
     d: "Victoria Falls",
-    correct: "b"
+    correct: "b",
   },
   {
     question: "Which country is home to the Eiffel Tower?",
@@ -77,8 +77,8 @@ const easyQuizData = [
     b: "Spain",
     c: "France",
     d: "India",
-    correct: "c"
-  }
+    correct: "c",
+  },
 ];
 
 const mediumQuizData = [
@@ -88,7 +88,7 @@ const mediumQuizData = [
     b: "Australia",
     c: "Antarctica",
     d: "Asia",
-    correct: "c"
+    correct: "c",
   },
   {
     question: "What is the largest ocean on Earth?",
@@ -96,7 +96,7 @@ const mediumQuizData = [
     b: "Indian Ocean",
     c: "Arctic Ocean",
     d: "Pacific Ocean",
-    correct: "d"
+    correct: "d",
   },
   {
     question: "What is the largest island on Earth?",
@@ -104,7 +104,7 @@ const mediumQuizData = [
     b: "New Guinea",
     c: "Borneo",
     d: "Madagascar",
-    correct: "a"
+    correct: "a",
   },
   {
     question: "Which country is home to the largest rainforest on Earth?",
@@ -112,7 +112,7 @@ const mediumQuizData = [
     b: "Indonesia",
     c: "Congo",
     d: "Peru",
-    correct: "a"
+    correct: "a",
   },
   {
     question: "Which desert is the hottest on Earth?",
@@ -120,7 +120,7 @@ const mediumQuizData = [
     b: "Sonoran Desert",
     c: "Lut Desert",
     d: "Kalahari Desert",
-    correct: "a"
+    correct: "a",
   },
   {
     question: "Which of these countries is on the Equator?",
@@ -128,7 +128,7 @@ const mediumQuizData = [
     b: "France",
     c: "Uganda",
     d: "Turkey",
-    correct: "c"
+    correct: "c",
   },
   {
     question: "Which of these countries is not landlocked?",
@@ -136,7 +136,7 @@ const mediumQuizData = [
     b: "Kazakhstan",
     c: "Serbia",
     d: "Iraq",
-    correct: "d"
+    correct: "d",
   },
   {
     question: "On which continent is the Yellow River located?",
@@ -144,7 +144,7 @@ const mediumQuizData = [
     b: "Asia",
     c: "Europe",
     d: "North America",
-    correct: "b"
+    correct: "b",
   },
   {
     question: "What is the most populous city in the world?",
@@ -152,7 +152,7 @@ const mediumQuizData = [
     b: "Tokyo, Japan",
     c: "Dhaka, Bangladesh",
     d: "Delhi, India",
-    correct: "b"
+    correct: "b",
   },
   {
     question: "What is the capital city of Canada?",
@@ -160,8 +160,8 @@ const mediumQuizData = [
     b: "Calgary",
     c: "Ottawa",
     d: "Montreal",
-    correct: "c"
-  }
+    correct: "c",
+  },
 ];
 
 const hardQuizData = [
@@ -171,7 +171,7 @@ const hardQuizData = [
     b: "Lake Baikal",
     c: "Lake Como",
     d: "Lake Superior",
-    correct: "b"
+    correct: "b",
   },
   {
     question: "Which country has the most active volcanoes?",
@@ -179,7 +179,7 @@ const hardQuizData = [
     b: "Indonesia",
     c: "Japan",
     d: "Iceland",
-    correct: "b"
+    correct: "b",
   },
   {
     question: "What is the highest permanent human settlement on Earth?",
@@ -187,7 +187,7 @@ const hardQuizData = [
     b: "La Rinconada, Peru",
     c: "Karzok, India",
     d: "Tuiwa, China",
-    correct: "b"
+    correct: "b",
   },
   {
     question: "What is the deepest part of the Earth's oceans?",
@@ -195,7 +195,7 @@ const hardQuizData = [
     b: "Kuril-Kamchatka Trench",
     c: "Mariana Trench",
     d: "Philippine Trench",
-    correct: "c"
+    correct: "c",
   },
   {
     question: "What is the newest country on Earth?",
@@ -203,7 +203,7 @@ const hardQuizData = [
     b: "Montenegro",
     c: "Palau",
     d: "East Timor",
-    correct: "a"
+    correct: "a",
   },
   {
     question: "What is the lowest land point on Earth?",
@@ -211,7 +211,7 @@ const hardQuizData = [
     b: "Death Valley",
     c: "Afar Depression",
     d: "Turfan Depression",
-    correct: "a"
+    correct: "a",
   },
   {
     question: "What is the most remote island on Earth?",
@@ -219,7 +219,7 @@ const hardQuizData = [
     b: "Tristan da Cunha",
     c: "Easter Island",
     d: "Pitcairn Island",
-    correct: "a"
+    correct: "a",
   },
   {
     question: "What is the hottest permanently inhabited place of Earth?",
@@ -227,7 +227,7 @@ const hardQuizData = [
     b: "Oodnadatta, Australia",
     c: "Furnace Creek, USA",
     d: "Dallol, Ethiopia",
-    correct: "d"
+    correct: "d",
   },
   {
     question: "What is the coldest permanently inhabited place of Earth?",
@@ -235,7 +235,7 @@ const hardQuizData = [
     b: "Ifrane, Morocco",
     c: "Sarmiento, Argentina",
     d: "Oymyakon, Russia",
-    correct: "d"
+    correct: "d",
   },
   {
     question: "What is the largest living animal on Earth?",
@@ -243,21 +243,20 @@ const hardQuizData = [
     b: "Blue Whale",
     c: "Grey Whale",
     d: "Sperm Whale",
-    correct: "b"
-  }
+    correct: "b",
+  },
 ];
 
 // fisher-yates shuffle code
 
-const shuffle = array => {
+const shuffle = (array) => {
   let shuffledArray = [...array]; // Makes a copy
   for (let i = shuffledArray.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
   }
   return shuffledArray;
 };
-
 
 // shuffle function to rearrange question order when quiz reloads
 
@@ -277,6 +276,7 @@ const mediumBtn = document.getElementById("medium");
 const hardBtn = document.getElementById("hard");
 const submitBtn = document.getElementById("submit");
 const intro = document.getElementById("intro");
+const qNum = document.getElementById("q-num");
 var currentQuizData = NaN;
 
 let quizData = [];
@@ -284,10 +284,13 @@ let currentQuiz = 0;
 let score = 0;
 let quizMode = 1;
 
+// difficulty selector
 easyBtn.addEventListener("click", () => startGame(1));
 mediumBtn.addEventListener("click", () => startGame(2));
 hardBtn.addEventListener("click", () => startGame(3));
 
+
+// changes view from intro box to quiz upon choice of difficulty
 function startGame(mode) {
   quizMode = mode;
   intro.style.display = "none";
@@ -298,6 +301,7 @@ function startGame(mode) {
 function loadQuiz() {
   deselectAnswers();
 
+  // sets difficulty
   if (quizMode === 1) {
     quizData = shuffledEasyQuizData;
     currentQuizData = quizData[currentQuiz];
@@ -308,20 +312,22 @@ function loadQuiz() {
     quizData = shuffledHardQuizData;
     currentQuizData = quizData[currentQuiz];
   }
-
-
+  // sets question number
+  qNum.innerText = `${currentQuiz + 1} of ${quizData.length}`;
+  // sets question text
   questionEl.innerText = currentQuizData.question;
-
+  // loops through answers and text
   const answers = ["a", "b", "c", "d"];
-  answers.forEach(letter => {
-    document.getElementById(`${letter}_text`).innerText = currentQuizData[letter];
+  answers.forEach((letter) => {
+    document.getElementById(`${letter}_text`).innerText =
+      currentQuizData[letter];
   });
 }
 
 function deselectAnswers() {
-  answerEls.forEach((answerEl) => answerEl.checked = false);
-
+  answerEls.forEach((answerEl) => (answerEl.checked = false));
 }
+
 
 function getSelected() {
   let answer;
@@ -337,19 +343,20 @@ function getSelected() {
 
 submitBtn.addEventListener("click", () => {
   const answer = getSelected();
-
+  //checks if answer is correct
   if (answer) {
-      if (answer === quizData[currentQuiz].correct){
+    if (answer === quizData[currentQuiz].correct) {
       score++;
     }
-
+    // moves to next question
     currentQuiz++;
 
-      if (currentQuiz < quizData.length) {
-        loadQuiz();
-      } else {
-        if (score < 4) {
-          quiz.innerHTML = `
+    if (currentQuiz < quizData.length) {
+      loadQuiz();
+    } else {
+      // bad end message
+      if (score < 4) {
+        quiz.innerHTML = `
             <div class="img-container" role="img"
              aria-label="A man with his head in his hands">
             <img src="assets/bad.webp">
@@ -360,8 +367,9 @@ submitBtn.addEventListener("click", () => {
              Better luck next time.</p>
             <button onclick="location.reload ()">Try Again?</button>
             `;
-        } else if (score < 7) {
-          quiz.innerHTML = `
+      // mid end message
+      } else if (score < 7) {
+        quiz.innerHTML = `
             <div class="img-container" role="img"
              aria-label="A large cat on a sofa with a blank expression">
             <img src="assets/ok.webp">
@@ -372,9 +380,10 @@ submitBtn.addEventListener("click", () => {
              ${quizData.length} questions correctly.
              Keep practising.</p>
             <button onclick="location.reload ()">Try Again?</button>`;
-        } else {
-          confetti(); // Summons confetti, loads from CDN link in index.html
-          quiz.innerHTML = `
+      } else {
+        // good end message
+        confetti(); // Summons confetti, loads from CDN link in index.html
+        quiz.innerHTML = `
             <div class="img-container" role="img"
              aria-label="A man atop a mountain looking at the horizon.">
             <img src="assets/good.webp">
@@ -383,7 +392,7 @@ submitBtn.addEventListener("click", () => {
             <p class="end-text"> You answered ${score}
             out of ${quizData.length} questions correctly.</p>
             <button onclick="location.reload ()">Try Again?</button>`;
-        }
       }
     }
-  });
+  }
+});

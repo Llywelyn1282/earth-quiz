@@ -145,9 +145,16 @@ main {
   align-items: center;
 }
 
-.quiz-header {
+.quiz-header{
   font-size: 1.5rem;
   padding: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.question-number {
+  font-size: 1rem;
+  padding: 1rem;
   text-align: center;
   margin: 0;
 }
