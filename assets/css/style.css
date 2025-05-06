@@ -2,14 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Barrio&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-  --color-1: #BBCDE5;
-  --color-2: #639FAB;
+  --color-1: #bbcde5;
+  --color-2: #639fab;
   --color-3: #193c5a;
-  --color-4: #1C5D99;
+  --color-4: #1c5d99;
   --color-5: #ffffff;
   --color-6: #222222;
 }
-
 
 body {
   background-image: linear-gradient(
@@ -33,7 +32,7 @@ header {
 main {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 
 footer {
@@ -72,7 +71,7 @@ main {
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 
 .nav-container a:hover {
@@ -154,18 +153,18 @@ main {
 }
 
 ul {
- list-style-type: none;
- padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 ul li {
   font-size: 1.2rem;
   margin: 1rem 0;
-  padding: .5rem .5rem;
+  padding: 0.5rem 0.5rem;
 }
 
 ul li label {
-cursor: pointer;
+  cursor: pointer;
 }
 
 .end-header {
@@ -203,7 +202,8 @@ cursor: pointer;
   width: 100%;
 }
 
-.form input, #message {
+.form input,
+#message {
   width: 80%;
   border-radius: 5px;
   font-family: inherit;
@@ -211,51 +211,66 @@ cursor: pointer;
   border: none;
 }
 
-#name, #email {
+#name,
+#email {
   height: 2rem;
   margin-bottom: 1rem;
-  padding-left: .5rem;
-  padding-top: .3rem;
+  padding-left: 0.5rem;
+  padding-top: 0.3rem;
 }
 
 #message {
   margin-bottom: 1rem;
-  padding-left: .5rem;
-  padding-top: .3rem;
+  padding-left: 0.5rem;
+  padding-top: 0.3rem;
 }
 
 #submit {
-    background-color: var(--color-3);
-    color: var(--color-5);
-    border: none;
-    display: block;
-    width: 100%;
-    cursor: pointer;
-    font-size: 1rem;
-    font-family: inherit;
-    padding: 1rem;
-    border-radius: 0%;
-  }
-  
-  #submit:hover {
-    background-color: var(--color-4);
-  }
-  
-  #submit:focus {
-    outline: none;
-    background-color: var(--color-4);
-  }
+  background-color: var(--color-3);
+  color: var(--color-5);
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 1rem;
+  border-radius: 0%;
+}
 
-  #contact-reply {
-    display: none;
-  }
+#submit:hover {
+  background-color: var(--color-4);
+}
 
-  .contact-header {
-    font-size: 1.5rem;
-    padding: 1.5rem;
-    text-align: center;
-    margin: 0;
-  }
+#submit:focus {
+  outline: none;
+  background-color: var(--color-4);
+}
+
+#contact-reply {
+  display: none;
+}
+
+.contact-header {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.success-container {
+  display: flex;
+  background-color: var(--color-5);
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  overflow: hidden;
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 /* Button */
 
@@ -281,15 +296,15 @@ button:focus {
 }
 
 #easy {
-  background-color: #006B3D;
+  background-color: #006b3d;
 }
 
 #medium {
- background-color: #D61F1F;
+  background-color: #d61f1f;
 }
 
 #hard {
-  background-color: #660A00;
+  background-color: #660a00;
 }
 
 .button-container {
@@ -311,32 +326,39 @@ button:focus {
   margin: auto;
 }
 
-@media screen and (max-width:576px) { 
-.nav-container a {
-  font-size: 18px;
-}
-.nav-container a.logo {
-  font-size: 25px;
-}
+@media screen and (max-width: 576px) {
+  .nav-container a {
+    font-size: 18px;
+  }
+  .nav-container a.logo {
+    font-size: 25px;
+  }
 
-.intro-header, .quiz-header, .contact-header, .end-header {
-  font-size: 1.2rem;
-}
+  .intro-header,
+  .quiz-header,
+  .contact-header,
+  .end-header {
+    font-size: 1.2rem;
+  }
 
-.intro-container, .quiz-container, .contact-container {
-  width: 80%;
-}
+  .intro-container,
+  .quiz-container,
+  .contact-container {
+    width: 80%;
+  }
 
-.intro-text, .end-text, li {
-  font-size: 1rem;
-}
+  .intro-text,
+  .end-text,
+  li {
+    font-size: 1rem;
+  }
 
-footer {
-  height: 100px;
-}
+  footer {
+    height: 100px;
+  }
 
-.socials {
-  transform: scale(0.7);
-  margin-bottom: 50px;
-}
+  .socials {
+    transform: scale(0.7);
+    margin-bottom: 50px;
+  }
 }

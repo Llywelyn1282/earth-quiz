@@ -111,11 +111,9 @@ CSS
   ![CSS Validator Results](/assets/documentation/css-validation.png)
 
 JavaScript
- - 11 warnings were found when passing through the official [JSLint Validator](https://www.jslint.com/), but luckily no errors. The warnings relate entirely to lines being over 8 characters and the code for the Fisher-Yates Algorithm which I borrowed from another page.
+ - 1 warning was found when passing through the official [JSHint Validator](https://www.jshint.com/), but luckily no errors. The warning relates to a function calling confetti following one of the quiz outcomes, which is a CDN link on the HTML index page.
   
-  ![JavaScript Validator Results 1](/assets/documentation/js-validation-1.png)
-
-  ![JavaScript Validator Results 2](/assets/documentation/js-validation-2.png)
+  ![JavaScript Validator Results ](/assets/documentation/js-validation.png)
 
 
 
@@ -128,7 +126,8 @@ JavaScript
 | Only hard questions showing up when pressing any difficulty | Sorting out issues with mode with the help of a friend |
 | Testing file not linked in README.md | Linked TESTING.md to README.md |
 | Able to enter blank forms | Added form validation |
-| Both Contact and 404 pages throwing console errors | They were related to javascript link trying to call things that weren't on those pages, I deleted the link on 404, and made a sepearate one for the contact page |
+| Both Contact and 404 pages throwing console errors | They were related to javascript link trying to call things that weren't on those pages, I deleted the link on 404 and contact pages |
+| Form success alert not best practice in several ways | Instead of alert used form action that directed to a success page |
 
 ### Unfixed Bugs
 
