@@ -311,10 +311,11 @@ function loadQuiz() {
 
 
   questionEl.innerText = currentQuizData.question;
-  a_text.innerText = currentQuizData.a;
-  b_text.innerText = currentQuizData.b;
-  c_text.innerText = currentQuizData.c;
-  d_text.innerText = currentQuizData.d;
+
+  const answers = ["a", "b", "c", "d"];
+  answers.forEach(letter => {
+    document.getElementById(`${letter}_text`).innerText = currentQuizData[letter];
+  });
 }
 
 function deselectAnswers() {
